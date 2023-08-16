@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: interpreter added!">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Environment.java" afterDir="false" />
+    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: enviroment added, variable scope only global">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/AstPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/AstPrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Expr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Lox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Environment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" afterDir="false" />
     </list>
@@ -112,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691256524141</updated>
-      <workItem from="1691256525132" duration="26907000" />
+      <workItem from="1691256525132" duration="27746000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <option name="closed" value="true" />
@@ -146,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692126946171</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: enviroment added, variable scope only global">
+      <option name="closed" value="true" />
+      <created>1692183082107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692183082107</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,7 +172,8 @@
     <MESSAGE value="feat: added basic ast implementation" />
     <MESSAGE value="feat: parser implemented" />
     <MESSAGE value="feat: interpreter added!" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: interpreter added!" />
+    <MESSAGE value="feat: enviroment added, variable scope only global" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: enviroment added, variable scope only global" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
