@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: logical evaluators &quot;OR&quot; &quot;AND&quot;">
+    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: WHILE loops!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Stmt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/test.lox" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/test.lox" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691256524141</updated>
-      <workItem from="1691256525132" duration="32869000" />
+      <workItem from="1691256525132" duration="34074000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <option name="closed" value="true" />
@@ -198,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1692390624557</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: WHILE loops!">
+      <option name="closed" value="true" />
+      <created>1692391017251</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1692391017251</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: WHILE loops!">
+      <option name="closed" value="true" />
+      <created>1692391020915</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1692391020915</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +237,8 @@
     <MESSAGE value="feat: environment scopes implemented, test.lox script added" />
     <MESSAGE value="feat: if else statements!" />
     <MESSAGE value="feat: logical evaluators &quot;OR&quot; &quot;AND&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: logical evaluators &quot;OR&quot; &quot;AND&quot;" />
+    <MESSAGE value="feat: WHILE loops!" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: WHILE loops!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

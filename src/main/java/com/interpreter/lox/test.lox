@@ -1,11 +1,5 @@
-var a = true;
+var a = 0;
 
-var loops = 10;
-
-while (a) {
-    print loops;
-    loops = loops - 1;
-    if (loops == 0) {
-        a = false;
-    }
+for (var b = 1; a < 10000; a = a + 1) {
+    print a;
 }
