@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: WHILE loops!">
+    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: C style for loops!">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxCallable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/test.lox" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/test.lox" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Stmt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +53,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lox">
+  <component name="RunManager" selected="Application.GenerateAst">
     <configuration name="GenerateAst (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.interpreter.tool.GenerateAst" />
       <module name="Interpreter" />
@@ -99,8 +103,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lox" />
         <item itemvalue="Application.GenerateAst" />
+        <item itemvalue="Application.Lox" />
         <item itemvalue="Application.GenerateAst (2)" />
       </list>
     </recent_temporary>
@@ -113,7 +117,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691256524141</updated>
-      <workItem from="1691256525132" duration="34074000" />
+      <workItem from="1691256525132" duration="36673000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <option name="closed" value="true" />
@@ -211,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692391020915</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feat: C style for loops!">
+      <option name="closed" value="true" />
+      <created>1692392273318</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1692392273318</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,7 +250,8 @@
     <MESSAGE value="feat: if else statements!" />
     <MESSAGE value="feat: logical evaluators &quot;OR&quot; &quot;AND&quot;" />
     <MESSAGE value="feat: WHILE loops!" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: WHILE loops!" />
+    <MESSAGE value="feat: C style for loops!" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: C style for loops!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
