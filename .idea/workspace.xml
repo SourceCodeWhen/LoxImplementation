@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: fields and properties on instances set up">
+    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: methods now pulling back in a simple way">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Resolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +132,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691256524141</updated>
-      <workItem from="1691256525132" duration="48044000" />
+      <workItem from="1691256525132" duration="49181000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <option name="closed" value="true" />
@@ -299,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692640242350</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feat: methods now pulling back in a simple way">
+      <option name="closed" value="true" />
+      <created>1692641240656</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1692641240656</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,7 +346,8 @@
     <MESSAGE value="feat: resolving variables to their scopes now working!" />
     <MESSAGE value="feat: classes being parsed" />
     <MESSAGE value="feat: fields and properties on instances set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: fields and properties on instances set up" />
+    <MESSAGE value="feat: methods now pulling back in a simple way" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: methods now pulling back in a simple way" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,7 +1,10 @@
-class cooltest {
-    testwow() {
-        print "Cool tests!";
+class Cake {
+    taste() {
+        var adjective = "delicious";
+        print "The " + this.flavor + " cake is " + adjective + "!";
     }
 }
 
-cooltest().testwow();
+var cake = Cake();
+cake.flavor = "Cool Chocolate";
+cake.taste();
