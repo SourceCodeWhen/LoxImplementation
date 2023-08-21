@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: methods now carry their locals with them, ie this. is working!">
+    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: classes, methods, fields, this. and constructors implemented!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Resolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Stmt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +131,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691256524141</updated>
-      <workItem from="1691256525132" duration="50401000" />
+      <workItem from="1691256525132" duration="52162000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <option name="closed" value="true" />
@@ -315,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692642810094</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="feat: classes, methods, fields, this. and constructors implemented!">
+      <option name="closed" value="true" />
+      <created>1692643888445</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1692643888445</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -353,7 +363,8 @@
     <MESSAGE value="feat: fields and properties on instances set up" />
     <MESSAGE value="feat: methods now pulling back in a simple way" />
     <MESSAGE value="feat: methods now carry their locals with them, ie this. is working!" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: methods now carry their locals with them, ie this. is working!" />
+    <MESSAGE value="feat: classes, methods, fields, this. and constructors implemented!" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: classes, methods, fields, this. and constructors implemented!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
