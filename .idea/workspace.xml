@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: classes being parsed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxInstance.java" afterDir="false" />
+    <list default="true" id="c33e7be9-d127-407b-9805-0ef7c7697748" name="Changes" comment="feat: fields and properties on instances set up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Interpreter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/LoxInstance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/lox/Resolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/interpreter/tool/GenerateAst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,8 +115,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenerateAst" />
         <item itemvalue="Application.Lox" />
+        <item itemvalue="Application.GenerateAst" />
         <item itemvalue="Application.GenerateAst (2)" />
       </list>
     </recent_temporary>
@@ -132,7 +129,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691256524141</updated>
-      <workItem from="1691256525132" duration="47028000" />
+      <workItem from="1691256525132" duration="48044000" />
     </task>
     <task id="LOCAL-00001" summary="feat: first commit">
       <option name="closed" value="true" />
@@ -294,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692638694388</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feat: fields and properties on instances set up">
+      <option name="closed" value="true" />
+      <created>1692640242350</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1692640242350</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +334,8 @@
     <MESSAGE value="feat: environment walking using static analysis" />
     <MESSAGE value="feat: resolving variables to their scopes now working!" />
     <MESSAGE value="feat: classes being parsed" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: classes being parsed" />
+    <MESSAGE value="feat: fields and properties on instances set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: fields and properties on instances set up" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

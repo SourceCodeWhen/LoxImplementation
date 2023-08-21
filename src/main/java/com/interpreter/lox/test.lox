@@ -1,7 +1,7 @@
-class testClass {
-    testtest() {
-        return "testwahoo";
+class cooltest {
+    testwow() {
+        print "Cool tests!";
     }
 }
 
-print testClass;
+cooltest().testwow();
